@@ -23,7 +23,7 @@ public class rollingBehavior : StateMachineBehaviour
     {
         if(timer <= 0)
         {
-            animator.SetTrigger("idle");
+            animator.SetTrigger("Idle");
         } else
         {
             timer -= Time.deltaTime;

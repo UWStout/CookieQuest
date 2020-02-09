@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minTime: 1
-  maxTime: 3
+  maxTime: 2.5
   speed: 1
 --- !u!114 &-3519327630403467937
 MonoBehaviour:
@@ -146,9 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd774941f4a2934db0094edd76ff700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
-  minTime: 0.5
-  maxTime: 1
+  minTime: 1
+  maxTime: 3
 --- !u!1102 &-3039657214149757568
 AnimatorState:
   serializedVersion: 5
