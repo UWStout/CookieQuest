@@ -9,9 +9,12 @@ public class BossController : MonoBehaviour
     public int damage;
 
     public Slider healthBar;
+
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         health = 10;
         healthBar.maxValue = health;
     }
@@ -23,6 +26,10 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(health <= health/2)
+        {
+            anim.SetTrigger("Stage2");
+        }
         healthBar.value = health; 
     }
 }
