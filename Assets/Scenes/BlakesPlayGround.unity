@@ -321,6 +321,26 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1171840172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 636160696189122712, guid: 0f4a71792964f8a48b8f77de6923c813,
+    type: 3}
+  m_PrefabInstance: {fileID: 1221868850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1171840173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171840172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69b3b67f770a9f489e34760d29f300e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  cooldown: 0.5
 --- !u!1001 &1221868850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -392,6 +412,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 636160696189122713, guid: 0f4a71792964f8a48b8f77de6923c813,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 636160696189122713, guid: 0f4a71792964f8a48b8f77de6923c813,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f4a71792964f8a48b8f77de6923c813, type: 3}
