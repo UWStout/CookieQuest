@@ -17,6 +17,7 @@ public class idlePlayerBehavior : StateMachineBehaviour
         {
             animator.SetTrigger("hit");
         }
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
