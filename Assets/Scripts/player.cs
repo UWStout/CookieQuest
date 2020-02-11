@@ -20,7 +20,7 @@ public class player : MonoBehaviour
     //the jump for the dinosaur if it is grounded and space
     private void Update()
     {
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.UpArrow))
         {
             float jumpVelocity = 10f;
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
@@ -38,6 +38,7 @@ public class player : MonoBehaviour
        return raycastHit2d.collider != null;
     }
 
+    //movement plus animation
     private void LeftRightMovement()
     {
         float movespeed = 5f;
