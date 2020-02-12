@@ -39,6 +39,8 @@ public class rollingBehavior : StateMachineBehaviour
         Vector2 cookie = new Vector2(animator.transform.position.x, animator.transform.position.y);
         float direction;
         direction = Vector2.Dot(cookie, target);
+        
+        //animator.transform.Translate(direction * (speed * Time.deltaTime);
         animator.transform.position = Vector2.MoveTowards(animator.transform.position, target, speed * Time.deltaTime);   
     }
 
