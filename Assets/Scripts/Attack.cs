@@ -8,8 +8,10 @@ public class Attack : MonoBehaviour
     public float cooldown;
 
     private Animator anim;
+    private GameObject[] enemies;
+    private Vector3 loc;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +24,15 @@ public class Attack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            //anim.SetTrigger("hit");
-            Debug.Log("E");
+            anim.SetTrigger("hit");
+            enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemies) {
+                loc = enemy.GetComponent<Transform>().position;
+                if(loc.x <= this.transform.position.x )
+                {
+
+                }
+            }      
         }
     }
 
