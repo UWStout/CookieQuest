@@ -13,6 +13,7 @@ public class Attack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         
     }
 
@@ -21,7 +22,7 @@ public class Attack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-
+            //anim.SetTrigger("hit");
             Debug.Log("E");
         }
     }
