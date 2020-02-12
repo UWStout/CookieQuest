@@ -23,6 +23,27 @@ TextureImporter:
   - first:
       213: 3138779302474147385
     second: DinoIdleSpritesheet_6
+  - first:
+      213: 4150655648249400837
+    second: DinoIdle_0
+  - first:
+      213: -1668392137559158195
+    second: DinoIdle_1
+  - first:
+      213: -3333669962257612372
+    second: DinoIdle_2
+  - first:
+      213: -1884864785747970015
+    second: DinoIdle_3
+  - first:
+      213: -9165203885075173569
+    second: DinoIdle_4
+  - first:
+      213: -8801624826128493561
+    second: DinoIdle_5
+  - first:
+      213: 4939366936902412659
+    second: DinoIdle_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -119,148 +140,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_0
+      name: DinoIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da90495861947b46a0c3382972b2567
-      internalID: 8873540324416706701
+      spriteID: 1a65cc3ef4db65047a3686a2b9ba2427
+      internalID: 4150655648249400837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_1
+      name: DinoIdle_1
       rect:
         serializedVersion: 2
         x: 74
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e524b7e81b24e8740b5b672e1ed6e62a
-      internalID: -4637385498799499745
+      spriteID: e38da8cb2c02e8341b4ebb3a38a729fa
+      internalID: -1668392137559158195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_2
+      name: DinoIdle_2
       rect:
         serializedVersion: 2
         x: 148
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c53c8609cf5db1418ac2e515fac7532
-      internalID: 6331965565864812781
+      spriteID: 148177de9ebbc6249b347c9e5f3687fe
+      internalID: -3333669962257612372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_3
+      name: DinoIdle_3
       rect:
         serializedVersion: 2
         x: 222
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32f1c040024075d4694421a6db6ec3fd
-      internalID: 7654787212262974405
+      spriteID: 498bfbaa9d782ae4c96f038174fc134b
+      internalID: -1884864785747970015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_4
+      name: DinoIdle_4
       rect:
         serializedVersion: 2
         x: 296
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acbdcfcce4d909a44884e23bc2c0a28f
-      internalID: 7480936048503594647
+      spriteID: d28122124c548f34891241e935dc9e8b
+      internalID: -9165203885075173569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_5
+      name: DinoIdle_5
       rect:
         serializedVersion: 2
         x: 370
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad580bb85989cf48aa272dc0822c9ef
-      internalID: -5219666896211766981
+      spriteID: abf3d262d963dca498466faf5b7157b3
+      internalID: -8801624826128493561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdleSpritesheet_6
+      name: DinoIdle_6
       rect:
         serializedVersion: 2
         x: 444
         y: 0
         width: 74
         height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b219109c7a7d4ee41863b21680238e5c
-      internalID: 3138779302474147385
+      spriteID: 1c11856ed041dd549a1a4da074a1e931
+      internalID: 4939366936902412659
       vertices: []
       indices: 
       edges: []
