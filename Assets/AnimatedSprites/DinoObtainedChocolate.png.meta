@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 4c8ccb95ede56f140bde2e908daaa03c
+guid: 35ae2bd5af105344abf271b879a5388c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4162356760390527145
-    second: DinoWalk_0
+      213: -6491751257585630869
+    second: DinoObtainedChocolate_0
   - first:
-      213: 3711465089663478637
-    second: DinoWalk_1
-  - first:
-      213: 108919717178767525
-    second: DinoWalk_2
-  - first:
-      213: -7060744840635603338
-    second: DinoWalk_3
+      213: 2699460155110221391
+    second: DinoObtainedChocolate_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoWalk_0
+      name: DinoObtainedChocolate_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 348b0c41da79b8540a5cfe379c24ffae
-      internalID: 4162356760390527145
+      spriteID: d65fc15affd357447ae0c8fd822c01ed
+      internalID: -6491751257585630869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoWalk_1
+      name: DinoObtainedChocolate_1
       rect:
         serializedVersion: 2
         x: 92
@@ -145,50 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6815fad8c2b7b7b4eaf4b08b68589861
-      internalID: 3711465089663478637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DinoWalk_2
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 0
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7036b0436e182c489f07d9bca3b07fa
-      internalID: 108919717178767525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DinoWalk_3
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 0
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d63e5e9e6efe3a42909df788f3aea92
-      internalID: -7060744840635603338
+      spriteID: 085a95d57466fc74e95169e45d7f5f05
+      internalID: 2699460155110221391
       vertices: []
       indices: 
       edges: []
