@@ -15,7 +15,7 @@ public class idlePlayerBehavior : StateMachineBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            animator.SetTrigger("hit");
+            //animator.SetTrigger("hit");
         }
 
     }

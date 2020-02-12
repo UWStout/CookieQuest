@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,6 +25,8 @@ public class Movement : MonoBehaviour
         //left right movement with arrow keys
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
+            //Set animation to walking. 
+            anim.SetTrigger("walking");
 
             // convert user input into world movement
             float horizontalMovement = Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime;

@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 65ac231030765b84b9bfd474dd128138
+guid: 1c8d3be929dd24142be280610dbc472e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2046824963033269505
-    second: CookieMonsterTuck_0
+      213: -2040345829532214316
+    second: BossTuck_0
   - first:
-      213: -2902815328154298541
-    second: CookieMonsterTuck_1
+      213: 219248640026237094
+    second: BossTuck_1
   - first:
-      213: -7147066755763543462
-    second: CookieMonsterTuck_2
+      213: 4458270771826114730
+    second: BossTuck_2
   - first:
-      213: -3633842086132374224
-    second: CookieMonsterTuck_3
+      213: -1454778012905039699
+    second: BossTuck_3
   - first:
-      213: 4395706818759594315
-    second: CookieMonsterTuck_4
+      213: 8548297216596416334
+    second: BossTuck_4
   - first:
-      213: 6192546538110462291
-    second: CookieMonsterTuck_5
+      213: 2378354496853498547
+    second: BossTuck_5
   - first:
-      213: 2850842895047627277
-    second: CookieMonsterTuck_6
+      213: 870232934100266071
+    second: BossTuck_6
+  - first:
+      213: 4152145071402995498
+    second: BossTuck_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -81,7 +84,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -93,7 +96,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -105,7 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -119,138 +122,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CookieMonsterTuck_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 252
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b88df5633936bc4ab11f87b167a6baa
-      internalID: 2046824963033269505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_1
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 252
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 939e8a39a760c5b4cbb7e1532d92e231
-      internalID: -2902815328154298541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 168
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1ab0c6e489e7e546a22345b8e03b8e1
-      internalID: -7147066755763543462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_3
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 168
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 599bd570b0b43bc459ea2f8dc41657fd
-      internalID: -3633842086132374224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 84
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ca11c3d9fd7efc4a85f9e959b0506bd
-      internalID: 4395706818759594315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_5
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 84
-        width: 92
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a6ebe3dc409b91418394177e70b362a
-      internalID: 6192546538110462291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CookieMonsterTuck_6
+      name: BossTuck_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 92
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -259,8 +136,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9db23c1f6d1df1f42b19dbd7198e3e2d
-      internalID: 2850842895047627277
+      spriteID: 9a3be89d80707384c9d666bbbf608253
+      internalID: -2040345829532214316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7598dc0237fb74746a12b96f8606e178
+      internalID: 219248640026237094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376b24ee68110e143a541796c7512f19
+      internalID: 4458270771826114730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8709d623cdee7c142a3211d89c3ab454
+      internalID: -1454778012905039699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2501c3c9e53819b4aae008be665f5159
+      internalID: 8548297216596416334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d3c0727ef7bc43b4c122d47a3be46
+      internalID: 2378354496853498547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593065c6ff8f564893509bacb2f0ffb
+      internalID: 870232934100266071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTuck_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02843e19bb934f34583a3e23c580a4e0
+      internalID: 4152145071402995498
       vertices: []
       indices: 
       edges: []

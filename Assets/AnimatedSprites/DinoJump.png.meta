@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: cc53e03fa5590dd4cb27fc9fd8da4ae4
+guid: 3db844b21de8bcf4d9bba5346d0e09a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1406704030848833422
-    second: DinoHitSpritesheet_0
+      213: 7607958829723848793
+    second: DinoJump_0
   - first:
-      213: -5099335437677947322
-    second: DinoHitSpritesheet_1
+      213: -5354723152134346072
+    second: DinoJump_1
+  - first:
+      213: 5491126227803810685
+    second: DinoJump_2
+  - first:
+      213: 2427062544511900499
+    second: DinoJump_3
+  - first:
+      213: -1402125695519367611
+    second: DinoJump_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoHitSpritesheet_0
+      name: DinoJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a3b47a4b3e6d9e40b96fb0d4b130d24
-      internalID: 1406704030848833422
+      spriteID: 76237dd77c03fa34fb173d0ca78f1efa
+      internalID: 7607958829723848793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoHitSpritesheet_1
+      name: DinoJump_1
       rect:
         serializedVersion: 2
-        x: 82
+        x: 92
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +148,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 019c449378d856a45b0f9ac3656d627c
-      internalID: -5099335437677947322
+      spriteID: c8cbe82042550524582d4fa47d0b44cf
+      internalID: -5354723152134346072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoJump_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4718f8928ff8974586fc01712ee6fe2
+      internalID: 5491126227803810685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoJump_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31887110be321e945b12cdf5f33d1762
+      internalID: 2427062544511900499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoJump_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1443c691180c746a96b47357bb78ce
+      internalID: -1402125695519367611
       vertices: []
       indices: 
       edges: []

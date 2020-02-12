@@ -150,8 +150,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 252
-        width: 92
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,7 +160,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f41344a1a65d58e4a8f191909463296a
+      spriteID: 892e54dd3e529e34b9c77cb6f83976ae
       internalID: 5495942090941324250
       vertices: []
       indices: 
@@ -170,9 +170,9 @@ TextureImporter:
       name: CookieMonsterIdle_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 252
-        width: 92
+        x: 100
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,7 +181,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2560fd55d7c6044b90e9aeeb5877f1e
+      spriteID: e9aea8f81284b1e47b74cca5b8b34f4b
       internalID: 8425397946871863785
       vertices: []
       indices: 
@@ -191,9 +191,9 @@ TextureImporter:
       name: CookieMonsterIdle_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 252
-        width: 92
+        x: 200
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,7 +202,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2bd1da306819be4fb0845c8296609b3
+      spriteID: c68f301f55340334eb242e0c9dab287d
       internalID: -7151644746580604466
       vertices: []
       indices: 
@@ -212,9 +212,9 @@ TextureImporter:
       name: CookieMonsterIdle_3
       rect:
         serializedVersion: 2
-        x: 276
-        y: 252
-        width: 92
+        x: 300
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,7 +223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3760f08dd99584848a4cff802f37c019
+      spriteID: 58d78debea0227745abda1b67895e8f0
       internalID: 4648715344219748234
       vertices: []
       indices: 
@@ -233,9 +233,9 @@ TextureImporter:
       name: CookieMonsterIdle_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 168
-        width: 92
+        x: 400
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308e9ed223397ca4488c59d9ffa990df
+      spriteID: cf6ab1a3d39e58a41bb01b93a0af5df3
       internalID: 8242060760159098393
       vertices: []
       indices: 
@@ -254,9 +254,9 @@ TextureImporter:
       name: CookieMonsterIdle_5
       rect:
         serializedVersion: 2
-        x: 92
-        y: 168
-        width: 92
+        x: 500
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,7 +265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a7e259665c64ce4fb8dad24d07c028f
+      spriteID: 9a2288987b039cd46b8617cbc506078d
       internalID: 1564144901205173806
       vertices: []
       indices: 
@@ -275,9 +275,9 @@ TextureImporter:
       name: CookieMonsterIdle_6
       rect:
         serializedVersion: 2
-        x: 184
-        y: 168
-        width: 92
+        x: 600
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -286,7 +286,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46aef3295fc7f9f43ad2113d2d9cf210
+      spriteID: 27a16706e1c385d4584558d06e733565
       internalID: 4207846313536011339
       vertices: []
       indices: 
@@ -296,9 +296,9 @@ TextureImporter:
       name: CookieMonsterIdle_7
       rect:
         serializedVersion: 2
-        x: 276
-        y: 168
-        width: 92
+        x: 700
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,7 +307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9776a43d5ad52449199cc366fd51bd
+      spriteID: b817abff41b1d2e40aaa3167ce492d0e
       internalID: -3794832108928409275
       vertices: []
       indices: 
@@ -317,9 +317,9 @@ TextureImporter:
       name: CookieMonsterIdle_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 84
-        width: 92
+        x: 800
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -328,7 +328,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbe0d7c637eabde4696385b5baa092fa
+      spriteID: 3ff8288bd1fac014fa49e17cc15c1a7e
       internalID: -3041741506051986497
       vertices: []
       indices: 
@@ -338,9 +338,9 @@ TextureImporter:
       name: CookieMonsterIdle_9
       rect:
         serializedVersion: 2
-        x: 92
-        y: 84
-        width: 92
+        x: 900
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -349,7 +349,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbbeaa4e2f864ef49be19bf35cf7fd2f
+      spriteID: af0bb794ff6cbd34daf9e118844599a9
       internalID: -3660606805790709405
       vertices: []
       indices: 
@@ -359,9 +359,9 @@ TextureImporter:
       name: CookieMonsterIdle_10
       rect:
         serializedVersion: 2
-        x: 184
-        y: 84
-        width: 92
+        x: 1000
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -370,7 +370,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d825633b3db806b4b8439bda9684de01
+      spriteID: 631d141fe603dd94eb01ffe6e152839f
       internalID: -3648062639865640227
       vertices: []
       indices: 
@@ -380,9 +380,9 @@ TextureImporter:
       name: CookieMonsterIdle_11
       rect:
         serializedVersion: 2
-        x: 276
-        y: 84
-        width: 92
+        x: 1100
+        y: 0
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -391,7 +391,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d199f1a18f763b418b5cc7bbfc9a35c
+      spriteID: 4b9ed61473443b64fa3e58bdb62a857e
       internalID: -6246044801612970557
       vertices: []
       indices: 
@@ -401,9 +401,9 @@ TextureImporter:
       name: CookieMonsterIdle_12
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1200
         y: 0
-        width: 92
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -412,7 +412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60e93b833faf165459e8ef3529046014
+      spriteID: 5970e1c542179c54abceff7e83728e4d
       internalID: -6128016220576205269
       vertices: []
       indices: 
@@ -422,9 +422,9 @@ TextureImporter:
       name: CookieMonsterIdle_13
       rect:
         serializedVersion: 2
-        x: 92
+        x: 1300
         y: 0
-        width: 92
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -433,7 +433,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 148bcec897f7b4143b2273034905ecea
+      spriteID: 4b01757db14384b41880bc3c10dc0632
       internalID: -1377844521741249345
       vertices: []
       indices: 
@@ -443,9 +443,9 @@ TextureImporter:
       name: CookieMonsterIdle_14
       rect:
         serializedVersion: 2
-        x: 184
+        x: 1400
         y: 0
-        width: 92
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -454,7 +454,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130b5a25164f72249842298bf835eeea
+      spriteID: 2c89111b4ce69d843853fba984077664
       internalID: 4104782463720057974
       vertices: []
       indices: 
@@ -464,9 +464,9 @@ TextureImporter:
       name: CookieMonsterIdle_15
       rect:
         serializedVersion: 2
-        x: 276
+        x: 1500
         y: 0
-        width: 92
+        width: 100
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -475,7 +475,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6131ca869e9968141bcb7a700b76d35a
+      spriteID: 82f5a832c2d89a94c83ac4b49774b3c7
       internalID: 8230752641808348631
       vertices: []
       indices: 
