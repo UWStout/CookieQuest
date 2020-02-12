@@ -17,7 +17,7 @@ public class player : MonoBehaviour
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
     }
 
-    //the jump for the dinosaur if it is grounded and space
+    //the jump for the dinosaur if it is grounded and up-arrow pressed
     private void Update()
     {
         if (IsGrounded() && Input.GetKeyDown(KeyCode.UpArrow))
