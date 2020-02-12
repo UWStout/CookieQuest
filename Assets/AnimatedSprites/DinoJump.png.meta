@@ -1,49 +1,22 @@
 fileFormatVersion: 2
-guid: 4e8c7a3d90380a244a97093d6a635789
+guid: 3db844b21de8bcf4d9bba5346d0e09a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8873540324416706701
-    second: DinoIdleSpritesheet_0
+      213: 7607958829723848793
+    second: DinoJump_0
   - first:
-      213: -4637385498799499745
-    second: DinoIdleSpritesheet_1
+      213: -5354723152134346072
+    second: DinoJump_1
   - first:
-      213: 6331965565864812781
-    second: DinoIdleSpritesheet_2
+      213: 5491126227803810685
+    second: DinoJump_2
   - first:
-      213: 7654787212262974405
-    second: DinoIdleSpritesheet_3
+      213: 2427062544511900499
+    second: DinoJump_3
   - first:
-      213: 7480936048503594647
-    second: DinoIdleSpritesheet_4
-  - first:
-      213: -5219666896211766981
-    second: DinoIdleSpritesheet_5
-  - first:
-      213: 3138779302474147385
-    second: DinoIdleSpritesheet_6
-  - first:
-      213: 4150655648249400837
-    second: DinoIdle_0
-  - first:
-      213: -1668392137559158195
-    second: DinoIdle_1
-  - first:
-      213: -3333669962257612372
-    second: DinoIdle_2
-  - first:
-      213: -1884864785747970015
-    second: DinoIdle_3
-  - first:
-      213: -9165203885075173569
-    second: DinoIdle_4
-  - first:
-      213: -8801624826128493561
-    second: DinoIdle_5
-  - first:
-      213: 4939366936902412659
-    second: DinoIdle_6
+      213: -1402125695519367611
+    second: DinoJump_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -140,148 +113,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoIdle_0
+      name: DinoJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a65cc3ef4db65047a3686a2b9ba2427
-      internalID: 4150655648249400837
+      spriteID: 76237dd77c03fa34fb173d0ca78f1efa
+      internalID: 7607958829723848793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdle_1
+      name: DinoJump_1
       rect:
         serializedVersion: 2
-        x: 74
+        x: 92
         y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38da8cb2c02e8341b4ebb3a38a729fa
-      internalID: -1668392137559158195
+      spriteID: c8cbe82042550524582d4fa47d0b44cf
+      internalID: -5354723152134346072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdle_2
+      name: DinoJump_2
       rect:
         serializedVersion: 2
-        x: 148
+        x: 184
         y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 148177de9ebbc6249b347c9e5f3687fe
-      internalID: -3333669962257612372
+      spriteID: e4718f8928ff8974586fc01712ee6fe2
+      internalID: 5491126227803810685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdle_3
+      name: DinoJump_3
       rect:
         serializedVersion: 2
-        x: 222
+        x: 276
         y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 498bfbaa9d782ae4c96f038174fc134b
-      internalID: -1884864785747970015
+      spriteID: 31887110be321e945b12cdf5f33d1762
+      internalID: 2427062544511900499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoIdle_4
+      name: DinoJump_4
       rect:
         serializedVersion: 2
-        x: 296
+        x: 368
         y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d28122124c548f34891241e935dc9e8b
-      internalID: -9165203885075173569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DinoIdle_5
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abf3d262d963dca498466faf5b7157b3
-      internalID: -8801624826128493561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DinoIdle_6
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 0
-        width: 74
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c11856ed041dd549a1a4da074a1e931
-      internalID: 4939366936902412659
+      spriteID: 2f1443c691180c746a96b47357bb78ce
+      internalID: -1402125695519367611
       vertices: []
       indices: 
       edges: []

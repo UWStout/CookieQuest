@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: cc53e03fa5590dd4cb27fc9fd8da4ae4
+guid: 35ae2bd5af105344abf271b879a5388c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1406704030848833422
-    second: DinoHitSpritesheet_0
+      213: -6491751257585630869
+    second: DinoObtainedChocolate_0
   - first:
-      213: -5099335437677947322
-    second: DinoHitSpritesheet_1
+      213: 2699460155110221391
+    second: DinoObtainedChocolate_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoHitSpritesheet_0
+      name: DinoObtainedChocolate_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a3b47a4b3e6d9e40b96fb0d4b130d24
-      internalID: 1406704030848833422
+      spriteID: d65fc15affd357447ae0c8fd822c01ed
+      internalID: -6491751257585630869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoHitSpritesheet_1
+      name: DinoObtainedChocolate_1
       rect:
         serializedVersion: 2
-        x: 82
+        x: 92
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 019c449378d856a45b0f9ac3656d627c
-      internalID: -5099335437677947322
+      spriteID: 085a95d57466fc74e95169e45d7f5f05
+      internalID: 2699460155110221391
       vertices: []
       indices: 
       edges: []

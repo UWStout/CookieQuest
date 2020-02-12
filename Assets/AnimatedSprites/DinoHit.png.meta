@@ -109,8 +109,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5156a55d3c0fd44793ec395f6f59999
+      spriteID: 0d77f16108123444e8c8e70aed6605ea
       internalID: -1078804094866120234
       vertices: []
       indices: 
@@ -128,10 +128,10 @@ TextureImporter:
       name: DinoHit_1
       rect:
         serializedVersion: 2
-        x: 82
+        x: 92
         y: 0
-        width: 82
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,7 +139,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 707726ef5b80569418104e2cdd73f61d
+      spriteID: 388038ecc56a012488214aeccc8059fa
       internalID: -2039665098958926297
       vertices: []
       indices: 

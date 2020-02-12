@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -73,9 +73,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,9 +85,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,9 +97,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,8 +115,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a7ca521e126034db795b71650916b3
+      spriteID: 348b0c41da79b8540a5cfe379c24ffae
       internalID: 4162356760390527145
       vertices: []
       indices: 
@@ -134,10 +134,10 @@ TextureImporter:
       name: DinoWalk_1
       rect:
         serializedVersion: 2
-        x: 72
+        x: 92
         y: 0
-        width: 72
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a05b5b3789dc24cb1b5c16bd723759
+      spriteID: 6815fad8c2b7b7b4eaf4b08b68589861
       internalID: 3711465089663478637
       vertices: []
       indices: 
@@ -155,10 +155,10 @@ TextureImporter:
       name: DinoWalk_2
       rect:
         serializedVersion: 2
-        x: 144
+        x: 184
         y: 0
-        width: 72
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b12b5989e0f00848b643e372e82d61c
+      spriteID: a7036b0436e182c489f07d9bca3b07fa
       internalID: 108919717178767525
       vertices: []
       indices: 
@@ -176,10 +176,10 @@ TextureImporter:
       name: DinoWalk_3
       rect:
         serializedVersion: 2
-        x: 216
+        x: 276
         y: 0
-        width: 72
-        height: 68
+        width: 92
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3efa46fecae72e343ae65820f6e23bbb
+      spriteID: 6d63e5e9e6efe3a42909df788f3aea92
       internalID: -7060744840635603338
       vertices: []
       indices: 
