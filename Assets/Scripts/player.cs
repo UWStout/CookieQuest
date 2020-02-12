@@ -10,6 +10,9 @@ public class player : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
     private Animator anim;
+
+    private player p;
+    public bool isGrounded;
     
     private void Awake()
     {
@@ -19,10 +22,14 @@ public class player : MonoBehaviour
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
     }
 
-    //the jump for the dinosaur if it is grounded and space
+    //the jump for the dinosaur if it is grounded and up-arrow pressed
     private void Update()
     {
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.UpArrow))
+        //when collides, it is grounded function
+        isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), platformsLayerMask);
+
+        //if grounded == true and up arrow pressed then he will jump
+        if (isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
         {
             float jumpVelocity = 10f;
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
@@ -32,15 +39,8 @@ public class player : MonoBehaviour
 
     }
 
-    //checks if the dinosaur is grounded
-    private bool IsGrounded()
-    {
-       RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down * .1f, platformsLayerMask);
-        Debug.Log(raycastHit2d.collider);
-       return raycastHit2d.collider != null;
-    }
-
-    //movement plus animation
+   
+    //movement plus animation plus flip
     private void LeftRightMovement()
     {
         float movespeed = 5f;
@@ -62,4 +62,20 @@ public class player : MonoBehaviour
         }
     }
 
+
+    
+
 }
+
+
+//previous codes (in case we need to go back to something)
+
+
+//checks if the dinosaur is grounded (did not work)
+/* private bool IsGrounded()
+ {
+    RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down * .1f, platformsLayerMask);
+     Debug.Log(raycastHit2d.collider);
+    return raycastHit2d.collider != null;
+ }
+ */
