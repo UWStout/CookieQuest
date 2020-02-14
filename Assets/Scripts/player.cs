@@ -47,17 +47,17 @@ public class player : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftArrow))
         {
-            anim.SetTrigger("walking");
+           // anim.SetTrigger("walking");
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            anim.SetTrigger("Walking");
+           // anim.SetTrigger("Walking");
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
         }
         else
         {
-            anim.SetTrigger("idle");
+           // anim.SetTrigger("idle");
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
     }
