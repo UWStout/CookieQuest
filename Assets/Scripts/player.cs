@@ -47,17 +47,29 @@ public class player : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftArrow))
         {
+//<<<<<<< HEAD
            // anim.SetTrigger("walking");
+//=======
+            //anim.SetTrigger("walking");
+//>>>>>>> 4461456583b635750f822bfde2b5839afa2853ff
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
+//<<<<<<< HEAD
            // anim.SetTrigger("Walking");
+//=======
+           //anim.SetTrigger("Walking");
+//>>>>>>> 4461456583b635750f822bfde2b5839afa2853ff
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
         }
         else
         {
+//<<<<<<< HEAD
            // anim.SetTrigger("idle");
+//=======
+            //anim.SetTrigger("idle");
+//>>>>>>> 4461456583b635750f822bfde2b5839afa2853ff
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
     }
