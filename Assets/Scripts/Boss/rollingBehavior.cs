@@ -32,7 +32,7 @@ public class rollingBehavior : StateMachineBehaviour
         //displayedSprite.sprite = rollingSprite;
         if(timer <= 0)
         {
-            animator.SetTrigger("Idle");
+            animator.SetTrigger("idle");
         } else
         {
             timer -= Time.deltaTime;
