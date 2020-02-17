@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class rollingBehavior : StateMachineBehaviour
 {
+<<<<<<< HEAD
     private float timer;
     public float minTime;
     public float maxTime;
@@ -23,12 +24,21 @@ public class rollingBehavior : StateMachineBehaviour
         displayedSprite = GameObject.FindObjectOfType<SpriteRenderer>();
         target = new Vector2(playerPos.position.x, animator.transform.position.y);
         cookie = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
+=======
+    //public BoxCollider2D feetCol;
+
+    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        //feetCol.enabled = false;
+>>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
        
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+<<<<<<< HEAD
         //displayedSprite.sprite = rollingSprite;
         if(timer <= 0)
         {
@@ -49,6 +59,9 @@ public class rollingBehavior : StateMachineBehaviour
         //animator.transform.Translate(direction * (speed * Time.deltaTime);
         //animator.transform.position = Vector2.MoveTowards(animator.transform.position, target, speed * Time.deltaTime);
         animator.transform.Translate(rollDir * speed * Time.deltaTime);
+=======
+
+>>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

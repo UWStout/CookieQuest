@@ -68,7 +68,11 @@ public class player : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftArrow))
         {
+<<<<<<< HEAD
            // anim.SetTrigger("walking");
+=======
+            //anim.SetTrigger("walking");
+>>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             // move.SetBool("Moving", true);
             //flips left if moving left
@@ -81,7 +85,11 @@ public class player : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
+<<<<<<< HEAD
            // anim.SetTrigger("Walking");
+=======
+           //anim.SetTrigger("Walking");
+>>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
             //move.SetBool("Moving", true);
             //Flips right if moving right;
@@ -94,7 +102,11 @@ public class player : MonoBehaviour
         }
         else
         {
+<<<<<<< HEAD
            // anim.SetTrigger("idle");
+=======
+            //anim.SetTrigger("idle");
+>>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
 
