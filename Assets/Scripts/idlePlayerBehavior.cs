@@ -13,10 +13,7 @@ public class idlePlayerBehavior : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            //animator.SetTrigger("hit");
-        }
+
 
     }
 

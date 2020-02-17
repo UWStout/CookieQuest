@@ -18,7 +18,7 @@ public class player : MonoBehaviour
     private player p;
     public bool isGrounded;
     public bool facingRight;
-    float groove = Input.GetAxis("Horizontal;");
+    private float groove;
 
     
     private void Awake()
@@ -27,6 +27,7 @@ public class player : MonoBehaviour
         playerBase = gameObject.GetComponent<Player_Base>();
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
+        groove = Input.GetAxis("Horizontal;");
     }
 
     //the jump for the dinosaur if it is grounded and up-arrow pressed
@@ -68,11 +69,7 @@ public class player : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftArrow))
         {
-<<<<<<< HEAD
-           // anim.SetTrigger("walking");
-=======
-            //anim.SetTrigger("walking");
->>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
+
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             // move.SetBool("Moving", true);
             //flips left if moving left
@@ -85,11 +82,7 @@ public class player : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-<<<<<<< HEAD
-           // anim.SetTrigger("Walking");
-=======
-           //anim.SetTrigger("Walking");
->>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
+
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
             //move.SetBool("Moving", true);
             //Flips right if moving right;
@@ -102,11 +95,7 @@ public class player : MonoBehaviour
         }
         else
         {
-<<<<<<< HEAD
-           // anim.SetTrigger("idle");
-=======
-            //anim.SetTrigger("idle");
->>>>>>> d4eaabf20832a15d602333cd06690bcc6601c6ba
+
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
 
