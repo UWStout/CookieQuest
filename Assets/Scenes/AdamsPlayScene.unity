@@ -354,8 +354,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformsLayerMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 0
   isGrounded: 0
+  facingRight: 0
 --- !u!1001 &636160696730489182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -371,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 636160696189122712, guid: 0f4a71792964f8a48b8f77de6923c813,
         type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 636160696189122712, guid: 0f4a71792964f8a48b8f77de6923c813,
         type: 3}
