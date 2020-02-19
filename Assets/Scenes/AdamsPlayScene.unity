@@ -235,7 +235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformsLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
+  isGrounded: 0
   facingRight: 0
 --- !u!1001 &636160696730489182
 PrefabInstance:
@@ -324,6 +325,11 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 636160696189122713, guid: 0f4a71792964f8a48b8f77de6923c813,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: a36a1a6f479b2394fbd0d16b4c23f66a, type: 2}
     - target: {fileID: 636160696189122709, guid: 0f4a71792964f8a48b8f77de6923c813,
         type: 3}
       propertyPath: m_Enabled
