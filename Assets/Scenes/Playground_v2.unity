@@ -183,9 +183,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 1.3332936
+  field of view: 15
+  orthographic: 0
+  orthographic size: 1.3424876
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -425,6 +425,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5282465214409229269, guid: 1b3aa2c632c05b340bc89cc59d6f2893,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3f72b94564a220648982f3c55582e0a0, type: 2}
     - target: {fileID: 5282465214409229272, guid: 1b3aa2c632c05b340bc89cc59d6f2893,
         type: 3}
       propertyPath: player
@@ -493,6 +498,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   isGrounded: 0
+  facingRight: 0
 --- !u!95 &1427085157
 Animator:
   serializedVersion: 3

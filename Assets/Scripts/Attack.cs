@@ -31,7 +31,7 @@ public class Attack : MonoBehaviour
             //Set Cooldown to start.
             timer = cooldown;
             //Set to hit animation state.
-            //anim.SetTrigger("hit");
+            anim.SetTrigger("hit");
 
 
 
@@ -41,6 +41,7 @@ public class Attack : MonoBehaviour
         }
 
         timer -= Time.deltaTime;
+        anim.SetTrigger("idle");
     }
 
     void OnTriggerEnter()
