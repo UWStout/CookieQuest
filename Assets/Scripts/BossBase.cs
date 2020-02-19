@@ -6,6 +6,7 @@ public class BossBase : MonoBehaviour
 {
 
     public int health;
+    public Animator bossAnim;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +20,16 @@ public class BossBase : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("boss hit");
+        TakeHit();
+ 
+    }
     public void TakeHit()
     {
         //Debug.Log("Damage Taken");
+        bossAnim.SetTrigger("Idle");
         health--;
     }
 }

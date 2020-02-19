@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public int damage;
     public float cooldown;
     private float timer;
+    private int health;
 
 
     public Animator anim;
@@ -14,6 +14,7 @@ public class Attack : MonoBehaviour
 
     private Vector3 loc;
     private BossBase bossScript;
+    public Animator bossAnim;
 
 
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class Attack : MonoBehaviour
     {
         bossScript = bossParent.GetComponent<BossBase>();
         timer = 0;
+        health = 6;
     }
 
     // Update is called once per frame
@@ -30,23 +32,21 @@ public class Attack : MonoBehaviour
         {
             //Set Cooldown to start.
             timer = cooldown;
+
             //Set to hit animation state.
             anim.SetTrigger("hit");
 
-
-
-            //Debug.Log("Hitting");
-
-            bossScript.TakeHit();
+            Debug.Log("Attack");
         }
 
         timer -= Time.deltaTime;
         anim.SetTrigger("idle");
     }
 
-    void OnTriggerEnter()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("entered");
+        Debug.Log("hit taken");
+        health--;
     }
 
 
