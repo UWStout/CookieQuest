@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
 
-        //death animation
+        //DEATH ANINATION
 
         
     }
@@ -26,9 +26,9 @@ public class Enemy : MonoBehaviour
     {
         Debug.Log("Enemy died!");
 
-        //Die Animation
+        //DIE ANIMATION
 
-        //Disable the enemy
+        //DISABLE THE ENEMY
     }
 
     
