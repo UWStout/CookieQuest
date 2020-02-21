@@ -36,12 +36,7 @@ public class player : MonoBehaviour
         playerBase = gameObject.GetComponent<Player_Base>();
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
-<<<<<<< HEAD
 
-       
-
-=======
->>>>>>> 5cc5489a876ddb81267d5190ce1cfed11c2f25ae
     }
 
     //the jump for the dinosaur if it is grounded and up-arrow pressed
@@ -87,14 +82,12 @@ public class player : MonoBehaviour
 
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             move.SetBool("Moving", true);
-<<<<<<< HEAD
+
             move.SetBool("Idle", false);
 
 
 
-=======
-            //flips left if moving left
->>>>>>> 5cc5489a876ddb81267d5190ce1cfed11c2f25ae
+
 
             characterscale.x = -1;
         }
@@ -105,13 +98,9 @@ public class player : MonoBehaviour
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
 
             move.SetBool("Moving", true);
-<<<<<<< HEAD
+
             move.SetBool("Idle", false);
 
-
-=======
-            //Flips right if moving right;
->>>>>>> 5cc5489a876ddb81267d5190ce1cfed11c2f25ae
 
             characterscale.x = 1;
 
