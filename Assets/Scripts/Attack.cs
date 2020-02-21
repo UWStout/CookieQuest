@@ -34,18 +34,18 @@ public class Attack : MonoBehaviour
             timer = cooldown;
 
             //Set to hit animation state.
-            anim.SetTrigger("hit");
+            anim.SetTrigger("Hit");
 
             Debug.Log("Attack");
         }
 
         timer -= Time.deltaTime;
-        anim.SetTrigger("idle");
+        anim.SetTrigger("Idle");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hit taken");
+        //Debug.Log("hit taken");
         health--;
     }
 
