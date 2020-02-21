@@ -82,13 +82,20 @@ public class player : MonoBehaviour
 
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             move.SetBool("Moving", true);
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9125e6e9ff91896d7096ba0d8a13904ce211612
             move.SetBool("Idle", false);
 
 
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9125e6e9ff91896d7096ba0d8a13904ce211612
 
             characterscale.x = -1;
         }
@@ -99,6 +106,7 @@ public class player : MonoBehaviour
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
 
             move.SetBool("Moving", true);
+<<<<<<< HEAD
             move.SetBool("Idle", false);
 
             move.SetBool("Idle", false);
@@ -107,6 +115,13 @@ public class player : MonoBehaviour
 
 
 
+=======
+
+            move.SetBool("Idle", false);
+
+
+            move.SetBool("Idle", false);
+>>>>>>> d9125e6e9ff91896d7096ba0d8a13904ce211612
 
             characterscale.x = 1;
 
