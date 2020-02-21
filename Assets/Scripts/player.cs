@@ -10,10 +10,18 @@ public class player : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
     private Animator move;
+    private float attackCool = .5f;
+    private float attackCooled;
     private Animator jump;
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+    public int attackDamage = 10;
+    //public int damage;
+    
 
     float jumpCooldown = .45f;
     float timeSinceAction = 0.0f;
+    public float attackRange;
   
 
     private player p;
@@ -29,11 +37,8 @@ public class player : MonoBehaviour
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
 
-<<<<<<< HEAD
-=======
-       // groove = Input.GetAxis("Horizontal");
+       
 
->>>>>>> 3bc265dcf16001de603a55f178ae6463990fb706
     }
 
     //the jump for the dinosaur if it is grounded and up-arrow pressed
@@ -41,12 +46,12 @@ public class player : MonoBehaviour
     {
 
 
-        //when collides, it is grounded function
-        // isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), platformsLayerMask);
+        
 
         timeSinceAction += Time.deltaTime;
+        attackCooled += Time.deltaTime;
 
-        //if grounded == true and up arrow pressed then he will jump
+        //if timer is 0 and up arrow pressed then he will jump
         if (timeSinceAction > jumpCooldown && Input.GetKeyDown(KeyCode.UpArrow))
         {
             timeSinceAction = 0;
@@ -64,7 +69,7 @@ public class player : MonoBehaviour
     }
 
    
-    //movement plus animation plus flip
+    //MOVEMENT, JUMP, HIT, AND ANIMATIONS
     private void LeftRightMovement()
     {
 
@@ -73,48 +78,46 @@ public class player : MonoBehaviour
 
         float movespeed = 5f;
 
+        //LEFT MOVEMENT
         if(Input.GetKey(KeyCode.LeftArrow))
         {
 
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             move.SetBool("Moving", true);
-            //flips left if moving left
-<<<<<<< HEAD
-=======
+            move.SetBool("Idle", false);
 
-          /*  if (groove > 0)
-            {
-                Flip();
-            }*/
 
->>>>>>> 3bc265dcf16001de603a55f178ae6463990fb706
-            
+
+
             characterscale.x = -1;
         }
+        //RIGHT MOVEMENT
         else if (Input.GetKey(KeyCode.RightArrow))
         {
 
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
 
             move.SetBool("Moving", true);
-            //Flips right if moving right;
-<<<<<<< HEAD
-=======
+            move.SetBool("Idle", false);
 
-            
 
-           /* if (groove < 0)
-            {
-                Flip();
-            }*/
 
->>>>>>> 3bc265dcf16001de603a55f178ae6463990fb706
             characterscale.x = 1;
 
         }
+        //PLAYER ATTACK WHEN SPACE IS PRESSED AND COOLDOWN IS DOWN
+        else if (attackCooled > attackCool && Input.GetKey(KeyCode.Space))
+        {
+            move.SetTrigger("attack");
+            Battle();
+            attackCooled = 0;
+        }
+
+        //PLAYER IS IDLE
         else
         {
             move.SetBool("Moving", false);
+            move.SetBool("Idle", true); 
             rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
 
@@ -122,6 +125,8 @@ public class player : MonoBehaviour
 
     }
 
+
+    //PLAYER IS FLIPPING
     void Flip()
     {
         facingRight = !facingRight;
@@ -130,10 +135,43 @@ public class player : MonoBehaviour
 
 
   
-    
+    //ATTACKING
+
+    void Battle()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+        for (int i = 0; i < hitEnemies.Length; i++)
+        {
+            hitEnemies[i].GetComponent<Enemy>().TakeDamage(attackDamage);
+        }
+    }
+
+    //HELPS SEE THE ATTACK RADIUS/RANGE
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// groove = Input.GetAxis("Horizontal");
 
 //previous codes (in case we need to go back to something)
 
@@ -146,3 +184,25 @@ public class player : MonoBehaviour
     return raycastHit2d.collider != null;
  }
  */
+
+
+ //flips left if moving left
+
+          /*  if (groove > 0)
+            {
+                Flip();
+            }*/
+
+
+ //Flips right if moving right;
+
+            
+
+           /* if (groove < 0)
+            {
+                Flip();
+            }*/
+
+
+//when collides, it is grounded function
+        // isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), platformsLayerMask);

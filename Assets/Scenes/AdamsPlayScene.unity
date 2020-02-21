@@ -203,6 +203,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1165239081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165239082}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1165239082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165239081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1427085161}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1427085154 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 636160696189122712, guid: 0f4a71792964f8a48b8f77de6923c813,
@@ -236,8 +266,36 @@ MonoBehaviour:
   platformsLayerMask:
     serializedVersion: 2
     m_Bits: 512
+  attackPoint: {fileID: 1165239082}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackDamage: 10
+  attackRange: 0.2
   isGrounded: 0
   facingRight: 0
+--- !u!114 &1427085157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427085154}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1a81fb9ac79a746a63025411e3bf74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  anim: {fileID: 1427085163}
+  bossParent: {fileID: 0}
+  bossAnim: {fileID: 0}
+--- !u!4 &1427085161 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 636160696189122708, guid: 0f4a71792964f8a48b8f77de6923c813,
+    type: 3}
+  m_PrefabInstance: {fileID: 636160696730489182}
+  m_PrefabAsset: {fileID: 0}
 --- !u!111 &1427085162
 Animation:
   m_ObjectHideFlags: 0
