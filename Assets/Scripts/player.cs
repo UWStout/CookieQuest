@@ -82,13 +82,20 @@ public class player : MonoBehaviour
 
             rigidbody2d.velocity = new Vector2(-movespeed, rigidbody2d.velocity.y);
             move.SetBool("Moving", true);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 82e2356cdd048c81c40a32ae7d3f267270687d44
             move.SetBool("Idle", false);
 
 
 
 
+<<<<<<< HEAD
             //flips left if moving left
 
+=======
+>>>>>>> 82e2356cdd048c81c40a32ae7d3f267270687d44
 
             characterscale.x = -1;
         }
@@ -99,12 +106,19 @@ public class player : MonoBehaviour
             rigidbody2d.velocity = new Vector2(+movespeed, rigidbody2d.velocity.y);
 
             move.SetBool("Moving", true);
+<<<<<<< HEAD
+            move.SetBool("Idle", false);
+=======
+>>>>>>> 82e2356cdd048c81c40a32ae7d3f267270687d44
+
             move.SetBool("Idle", false);
 
-
+<<<<<<< HEAD
 
             //Flips right if moving right;
 
+=======
+>>>>>>> 82e2356cdd048c81c40a32ae7d3f267270687d44
 
             characterscale.x = 1;
 
