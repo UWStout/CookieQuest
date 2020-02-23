@@ -102,17 +102,7 @@ public class player : MonoBehaviour
             move.SetBool("Moving", true);
             move.SetBool("Idle", false);
 
-            move.SetBool("Idle", false);
-
-
-
-
-
-
-            move.SetBool("Idle", false);
-
-
-            move.SetBool("Idle", false);
+           
 
             characterscale.x = 1;
 

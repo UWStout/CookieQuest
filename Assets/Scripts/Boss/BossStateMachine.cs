@@ -25,6 +25,12 @@ public class BossStateMachine : MonoBehaviour
     //coliders
     public BoxCollider2D feetCol;
 
+    //damage
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+    public int attackDamage = 1;
+    public float attackRange;
+
     //Enumeration to switch between main boss states.
     private enum State
     {
@@ -73,6 +79,7 @@ public class BossStateMachine : MonoBehaviour
                 }
                 //Every Frame in this state.
                 rollingState();
+                Battle();
                 timer -= Time.deltaTime;
                 break;
             //Currently unused state.
@@ -127,6 +134,8 @@ public class BossStateMachine : MonoBehaviour
             isFirst = true;
         }
 
+        
+
 
     }
 
@@ -136,4 +145,25 @@ public class BossStateMachine : MonoBehaviour
         float f = Random.Range(minTime, maxTime);
         return f;
     }
+
+
+    //ATTACKING
+
+    void Battle()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+        for (int i = 0; i < hitEnemies.Length; i++)
+        {
+            hitEnemies[i].GetComponent<playerHealth>().TakeDamage(attackDamage);
+        }
+    }
+
+    //HELPS SEE THE ATTACK RADIUS/RANGE
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
 }
