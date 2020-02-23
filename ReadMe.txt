@@ -6,6 +6,7 @@ around the world. Collect these ingredients by battleing the sentient ingedient 
 Keyboard Mappings:
   Right and Left Arrows: Movement left and right
   Up Arrow: Jump
-  E: Hit/Swing Pin
+  Space: Hit/Swing Pin
+  Esc: Pause/Unpause
 
 Credits: Blake Bissell(Progammer), Adam Crane(Programmer), Keenan(Artist)
