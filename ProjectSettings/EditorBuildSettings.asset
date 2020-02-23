@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WonState.unity
     guid: e61df69eb396dd9479fae86612b688db
+  - enabled: 1
+    path: Assets/LossScene.unity
+    guid: 1b18145df3a957c4983e9e545ebd6cdc
   m_configObjects: {}
