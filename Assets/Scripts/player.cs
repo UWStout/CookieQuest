@@ -43,9 +43,6 @@ public class player : MonoBehaviour
     private void Update()
     {
 
-
- 
-
         timeSinceAction += Time.deltaTime;
         attackCooled += Time.deltaTime;
 
@@ -59,11 +56,6 @@ public class player : MonoBehaviour
         }
 
         LeftRightMovement();
-
-
-        
-
-
     }
 
    
@@ -73,7 +65,6 @@ public class player : MonoBehaviour
 
         Vector2 characterscale = transform.localScale;
         
-
         float movespeed = 5f;
 
         //LEFT MOVEMENT
@@ -85,12 +76,6 @@ public class player : MonoBehaviour
 
             move.SetBool("Idle", false);
 
-
-
-
-
-
-
             characterscale.x = -1;
         }
         //RIGHT MOVEMENT
@@ -101,8 +86,6 @@ public class player : MonoBehaviour
 
             move.SetBool("Moving", true);
             move.SetBool("Idle", false);
-
-           
 
             characterscale.x = 1;
 

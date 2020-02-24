@@ -808,8 +808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78457446d0319724b9fc7490bff3afe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playingUI: {fileID: 1212589657}
-  lostUI: {fileID: 0}
   healthBar: {fileID: 532126987}
   maxHealth: 100
   currentHealth: 0
@@ -1003,6 +1001,31 @@ PrefabInstance:
     - target: {fileID: 195704634662775356, guid: 288a2b369dd064a4185bc41926a3438b,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 195704634699786530, guid: 288a2b369dd064a4185bc41926a3438b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 195704634699786530, guid: 288a2b369dd064a4185bc41926a3438b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1136
+      objectReference: {fileID: 0}
+    - target: {fileID: 195704634699786530, guid: 288a2b369dd064a4185bc41926a3438b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 195704634699786530, guid: 288a2b369dd064a4185bc41926a3438b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 639
+      objectReference: {fileID: 0}
+    - target: {fileID: 195704634699786533, guid: 288a2b369dd064a4185bc41926a3438b,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

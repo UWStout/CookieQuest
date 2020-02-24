@@ -16,7 +16,6 @@ public class BossStateMachine : MonoBehaviour
     public float minTime;
     public float maxTime;
     public GameObject player;
-    private Transform playerTrans;
 
     //rolling
     public float rollSpeed;
@@ -109,7 +108,7 @@ public class BossStateMachine : MonoBehaviour
 
     private void rollingState()
     {
-        //Disable Feet Collider
+        //Disable Feet Collider, allows for object to roll. 
         feetCol.enabled = false;
 
         //set the animation
@@ -117,11 +116,8 @@ public class BossStateMachine : MonoBehaviour
 
         //get all vector info we need to move the cookie correctly
         Vector2 target = new Vector2(player.transform.position.x, gameObject.transform.position.y);
-        Vector2 cookiePos = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
-        Vector2 rollDir = target - cookiePos;
 
         //Rotate the gameObject to simulate rolling. 
-        Vector3 rotation = new Vector3(0,0,1);
         gameObject.transform.Rotate(Vector3.forward, -90f * Time.deltaTime);
         
         //Move the parent objects transform to show movement of the sprite.

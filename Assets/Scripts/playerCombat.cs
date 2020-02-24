@@ -55,23 +55,20 @@ public class playerCombat : MonoBehaviour
 {
     public float cooldown;
     private float timer;
-    private int health;
+
 
 
     public Animator anim;
     public GameObject bossParent;
 
-    private Vector3 loc;
-    private BossBase bossScript;
     public Animator bossAnim;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        bossScript = bossParent.GetComponent<BossBase>();
+
         timer = 0;
-        health = 6;
     }
 
     // Update is called once per frame
@@ -85,7 +82,7 @@ public class playerCombat : MonoBehaviour
             //Set to hit animation state.
             anim.SetTrigger("hit");
 
-            Debug.Log("Attack");
+
         }
 
         timer -= Time.deltaTime;
